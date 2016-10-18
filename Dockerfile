@@ -1,4 +1,4 @@
-FROM php:alpine
+FROM php:7.1-alpine
 
 RUN apk update \
     && apk add $PHPIZE_DEPS ca-certificates wget \
